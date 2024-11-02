@@ -1,0 +1,2 @@
+Forcibly left Galaxy lobby at 15:04:32 - LOBBY_LEAVE_REASON_CONNECTION_LOST
+Forcibly left Galaxy lobby at 15:17:46 - LOBBY_LEAVE_REASON_CONNECTION_LOST

@@ -1,0 +1,22 @@
+Message: Object reference not set to an instance of an object.
+InnerException: 
+Stack Trace:    at StardewValley.Menus.OptionsPage.offerInvite() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Menus\OptionsPage.cs:line 395
+   at StardewValley.Menus.OptionsButton.receiveLeftClick(Int32 x, Int32 y) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Menus\OptionsElement.cs:line 133
+   at StardewValley.Menus.OptionsPage.receiveLeftClick(Int32 x, Int32 y, Boolean playSound) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Menus\OptionsPage.cs:line 703
+   at StardewValley.Game1.updateActiveMenu(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 4798
+   at StardewValley.Game1._update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 4010
+   at StardewValley.Game1.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 3185
+   at StardewValley.GameRunner.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\LocalMultiplayer.cs:line 927
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 917
+   at Microsoft.Xna.Framework.Game.Tick() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 620
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\SDL\SDLGamePlatform.cs:line 90
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 481
+   at StardewValley.Program.Main(String[] args) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Program.cs:line 200
+
+Game Version: 1.6.8 build 24119
+SDK Helper: SteamHelper
+Game Language: en
+GPU: Intel(R) UHD Graphics 620
+OS: Win32NT Microsoft Windows NT 10.0.22631.0
+In-game Date: Fall 20 Y1 Time of Day: 630
+Game Location: Farm

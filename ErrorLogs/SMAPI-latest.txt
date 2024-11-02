@@ -1,0 +1,346 @@
+[20:33:59 INFO  SMAPI] SMAPI 4.0.1 with Stardew Valley 1.6.2 build 24081 on Microsoft Windows 11 Pro
+[20:33:59 INFO  SMAPI] Mods go here: C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods
+[20:33:59 TRACE SMAPI] Log started at 2024-03-24T13:33:59 UTC
+[20:34:04 DEBUG SMAPI] Waiting for game to launch...
+[20:34:07 DEBUG SMAPI] Loading mod metadata...
+[20:34:07 TRACE SMAPI]   Ignored loose files: Expanded Preconditions Utility-6529-1-0-1-1608576863.zip, SAAT 1.1.2-10747-1-1-2-1643684073.zip, SkipFishingMinigameDotnet5 0.5.5.zip-2697-0-5-5-1684032154.zip
+[20:34:07 DEBUG SMAPI] Loading mods...
+[20:34:07 TRACE SMAPI]    Error Handler (from Mods\ErrorHandler\ErrorHandler.dll)...
+[20:34:07 TRACE SMAPI]       Failed: marked obsolete in SMAPI's internal compatibility list for all versions: its error handling was integrated into Stardew Valley 1.6..
+[20:34:07 TRACE SMAPI]    Content Patcher (from Mods\ContentPatcher\ContentPatcher.dll)...
+[20:34:08 TRACE SMAPI]    Elle's New Barn Animals (from Mods\Barn Replacements-3167-1-1-3-1609545104\[CP] Elle's New Barn Animals) [content pack]...
+[20:34:08 TRACE SMAPI]    Console Commands (from Mods\ConsoleCommands\ConsoleCommands.dll)...
+[20:34:08 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly ConsoleCommands.dll.
+[20:34:08 TRACE SMAPI]    Custom NPC Exclusions (from Mods\Custom NPC Exclusions v1.6.0-7089-1-6-0-1710860898\CustomNPCExclusions\CustomNPCExclusions.dll)...
+[20:34:08 TRACE SMAPI]       Detected game patcher in assembly CustomNPCExclusions.dll.
+[20:34:08 TRACE SMAPI]    Expanded Preconditions Utility (from Mods\ExpandedPreconditionsUtility\ExpandedPreconditionsUtility.dll)...
+[20:34:08 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll for OS...
+[20:34:08 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix Character.getTileLocation method, Farmer.get_Items method, Game1.getCharacterFromName method...
+[20:34:08 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix 32-bit architecture...
+[20:34:08 TRACE SMAPI]       Broken code in ExpandedPreconditionsUtility.dll: reference to StardewValley.Farmer.eventsSeen (field returns NetStringHashSet, not NetIntList), reference to StardewValley.Farmer.mailReceived (field returns NetStringHashSet, not NetStringList).
+[20:34:08 TRACE SMAPI]    Extra Map Layers (from Mods\Extra Map Layers-9633-0-3-10-1693187696\ExtraMapLayers\ExtraMapLayers.dll)...
+[20:34:08 TRACE SMAPI]       Rewrote ExtraMapLayers.dll to fix Layer.Draw method...
+[20:34:08 TRACE SMAPI]       Detected game patcher in assembly ExtraMapLayers.dll.
+[20:34:08 TRACE SMAPI]    Generic Mod Config Menu (from Mods\GenericModConfigMenu\GenericModConfigMenu.dll)...
+[20:34:08 TRACE SMAPI]    Farm Type Manager (from Mods\FarmTypeManager\FarmTypeManager.dll)...
+[20:34:08 TRACE SMAPI]       Detected game patcher in assembly FarmTypeManager.dll.
+[20:34:08 TRACE SMAPI]    StardewHack (from Mods\StardewHack\StardewHack.dll)...
+[20:34:08 TRACE SMAPI]       Detected game patcher in assembly StardewHack.dll.
+[20:34:08 TRACE SMAPI]    Harvest With Scythe (from Mods\HarvestWithScythe\HarvestWithScythe.dll)...
+[20:34:08 TRACE SMAPI]       Detected game patcher in assembly HarvestWithScythe.dll.
+[20:34:08 TRACE SMAPI]    SpaceCore (from Mods\SpaceCore\SpaceCore.dll)...
+[20:34:09 TRACE SMAPI]       Detected game patcher in assembly SpaceCore.dll.
+[20:34:09 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field, StardewValley.SaveGame.locationSerializer field, StardewValley.SaveGame.serializer field) in assembly SpaceCore.dll.
+[20:34:09 TRACE SMAPI]    Json Assets (from Mods\JsonAssets\JsonAssets.dll)...
+[20:34:09 TRACE SMAPI]       Rewrote JsonAssets.dll to fix Boots..ctor method, BuildableGameLocation.buildings field, Building.input field, Building.output field, Chest.items field, Farmer.get_Items method, Farmer.items field, FarmerTeam.junimoChest field, Fence..ctor method, FruitTree.fruitSeason field, Game1.createRadialDebris method, Game1.playSound method, GameLocation.isTileOccupiedForPlacement method, GameLocation.playSound method, Hat..ctor method, JunimoHut.output field, MeleeWeapon..ctor method, Object..ctor method, OverlaidDictionary.get_Keys method, OverlaidDictionary.get_Pairs method, Ring..ctor method, ShopMenu.storeContext field, SpriteText.drawString method, StardewValley.Buildings.Mill type, StardewValley.CollectObjective type, StardewValley.DonateObjective type, StardewValley.FishObjective type, StardewValley.GiftObjective type, StardewValley.ModDataDictionary type, StardewValley.Network.IWorldState type, StardewValley.Network.NetAudio/SoundContext type, StardewValley.Network.OverlaidDictionary/KeysCollection type, StardewValley.Network.OverlaidDictionary/KeysCollection/Enumerator type, StardewValley.Network.OverlaidDictionary/PairsCollection type, StardewValley.Network.OverlaidDictionary/PairsCollection/Enumerator type, StardewValley.OrderObjective type, StardewValley.ShipObjective type, StardewValley.SpecialOrder type, Utility.IsNormalObjectAtParentSheetIndex method...
+[20:34:09 TRACE SMAPI]       Rewrote JsonAssets.dll to fix Building.modData (field => property), Game1.currentSeason (field => property), Object.quality -> Item.quality (field now inherited)...
+[20:34:09 TRACE SMAPI]       Rewrote JsonAssets.dll to fix Clothing.LoadData (added missing optional parameters), Utility.fuzzyItemSearch (added missing optional parameters)...
+[20:34:09 TRACE SMAPI]       Detected game patcher in assembly JsonAssets.dll.
+[20:34:09 TRACE SMAPI]       Broken code in JsonAssets.dll: reference to SpaceCore.TileSheetExtensions.GetAdjustedTileSheetTarget (no such method), reference to SpaceCore.TileSheetExtensions.GetTileSheet (no such method), reference to SpaceCore.TileSheetExtensions.PatchExtendedTileSheet (no such method), reference to SpaceCore.TileSheetExtensions.RegisterExtendedTileSheet (no such method), reference to StardewValley.Buildings.FishPond.fishType (field returns NetString, not NetInt), reference to StardewValley.Buildings.FishPond.neededItem (field returns NetRef`1, not NetRef`1), reference to StardewValley.CraftingRecipe.itemToProduce (field returns List`1, not List`1), reference to StardewValley.Crop.indexOfHarvest (field returns NetString, not NetInt), reference to StardewValley.Crop.netSeedIndex (field returns NetString, not NetInt), reference to StardewValley.FarmAnimal.currentProduce (field returns NetString, not NetInt), reference to StardewValley.FarmAnimal.defaultProduceIndex (no such field), reference to StardewValley.FarmAnimal.deluxeProduceIndex (no such field), reference to StardewValley.Farmer.archaeologyFound (field returns StardewValley.NetStringIntArrayDictionary, not StardewValley.NetIntIntArrayDictionary), reference to StardewValley.Farmer.basicShipped (field returns StardewValley.Network.NetStringDictionary`2<System.Int32,Netcode.NetInt>, not StardewValley.Network.NetIntDictionary`2<System.Int32,Netcode.NetInt>), reference to StardewValley.Farmer.eventsSeen (field returns NetStringHashSet, not NetIntList), reference to StardewValley.Farmer.fishCaught (field returns StardewValley.NetStringIntArrayDictionary, not StardewValley.NetIntIntArrayDictionary), reference to StardewValley.Farmer.giftedItems (field returns StardewValley.SerializableDictionary`2<System.String,StardewValley.SerializableDictionary`2<System.String,System.Int32>>, not StardewValley.SerializableDictionary`2<System.String,StardewValley.SerializableDictionary`2<System.Int32,System.Int32>>), reference to StardewValley.Farmer.mailForTomorrow (field returns NetStringHashSet, not NetStringList), reference to StardewValley.Farmer.mineralsFound (field returns StardewValley.Network.NetStringDictionary`2<System.Int32,Netcode.NetInt>, not StardewValley.Network.NetIntDictionary`2<System.Int32,Netcode.NetInt>), reference to StardewValley.Farmer.recipesCooked (field returns StardewValley.Network.NetStringDictionary`2<System.Int32,Netcode.NetInt>, not StardewValley.Network.NetIntDictionary`2<System.Int32,Netcode.NetInt>), reference to StardewValley.Fence.whichType (no such field), reference to StardewValley.Game1.bigCraftablesInformation (no such field), reference to StardewValley.Game1.clothingInformation (no such field), reference to StardewValley.Game1.objectInformation (no such field), reference to StardewValley.GameLocation.CanPlantTreesHere (no such method), reference to StardewValley.GameLocation.checkEventPrecondition (no such method), reference to StardewValley.GameLocation.overlayObjects (field returns StardewValley.Network.OverlayDictionary`2<Microsoft.Xna.Framework.Vector2,StardewValley.Object>, not Dictionary`2), reference to StardewValley.GameLocation.temporarySprites (field returns StardewValley.TemporaryAnimatedSpriteList, not List`1), reference to StardewValley.Locations.Cabin.farmhand (no such field), reference to StardewValley.Menus.ShopMenu.itemPriceAndStock (field returns Dictionary`2, not Dictionary`2), reference to StardewValley.Menus.ShopMenu.portraitPerson (no such field), reference to StardewValley.Network.NetWorldState.GetUnlocalizedBundleData (no such method), reference to StardewValley.Network.NetWorldState.get_MuseumPieces (no such property), reference to StardewValley.Object.preservedParentSheetIndex (field returns NetString, not NetInt), reference to StardewValley.Objects.Hat.which (no such field), reference to StardewValley.Objects.Ring.indexInTileSheet (no such field), reference to StardewValley.Quests.CraftingQuest.indexToCraft (no such field), reference to StardewValley.Quests.CraftingQuest.isBigCraftable (no such field), reference to StardewValley.Quests.FishingQuest.fish (no such field), reference to StardewValley.Quests.FishingQuest.whichFish (no such field), reference to StardewValley.Quests.ItemDeliveryQuest.deliveryItem (no such field), reference to StardewValley.Quests.ItemDeliveryQuest.item (no such field), reference to StardewValley.Quests.ItemHarvestQuest.itemIndex (no such field), reference to StardewValley.Quests.LostItemQuest.itemIndex (no such field), reference to StardewValley.SpecialOrders.SpecialOrder.preSelectedItems (field returns StardewValley.Network.NetStringDictionary`2<System.String,Netcode.NetString>, not StardewValley.Network.NetStringDictionary`2<System.Int32,Netcode.NetInt>), reference to StardewValley.TerrainFeatures.FruitTree.get_GreenHouseTree (no such property), reference to StardewValley.TerrainFeatures.FruitTree.indexOfFruit (no such field), reference to StardewValley.TerrainFeatures.FruitTree.treeType (no such field).
+[20:34:09 TRACE SMAPI]    NPC Map Locations (from Mods\NPCMapLocations\NPCMapLocations.dll)...
+[20:34:09 TRACE SMAPI]    SAAT.API (from Mods\SAAT\SAAT.API\SAAT.API.dll)...
+[20:34:09 TRACE SMAPI]       Rewrote SAAT.API.dll to fix SoundEffect.FromStream method...
+[20:34:09 TRACE SMAPI]       Broken code in SAAT.API.dll: reference to StardewValley.Farmer.songsHeard (field returns HashSet`1, not List`1).
+[20:34:09 TRACE SMAPI]    SAAT.Mod (from Mods\SAAT\SAAT.Mod\SAAT.Mod.dll)...
+[20:34:09 TRACE SMAPI]    Save Backup (from Mods\SaveBackup\SaveBackup.dll)...
+[20:34:09 TRACE SMAPI]    Shop Tile Framework (from Mods\ShopTileFramework\ShopTileFramework.dll)...
+[20:34:09 TRACE SMAPI]    SkipFishingMinigame (from Mods\SkipFishingMinigameDotnet5\SkipFishingMinigame.dll)...
+[20:34:09 TRACE SMAPI]       Rewrote SkipFishingMinigame.dll to fix FishingRod.pullFishFromWater method, StardewValley.AutoHookEnchantment type, StardewValley.BaseEnchantment type...
+[20:34:09 TRACE SMAPI]       Broken code in SkipFishingMinigame.dll: reference to StardewValley.Farmer.fishCaught (field returns StardewValley.NetStringIntArrayDictionary, not StardewValley.NetIntIntArrayDictionary).
+[20:34:09 TRACE SMAPI]    SkullCavernElevator (from Mods\SkullCavernElevator\SkullCavernElevator.dll)...
+[20:34:09 TRACE SMAPI]    Stardew Valley Expanded (from Mods\Stardew Valley Expanded\StardewValleyExpanded\StardewValleyExpanded.dll)...
+[20:34:09 TRACE SMAPI]       Detected game patcher in assembly StardewValleyExpanded.dll.
+[20:34:09 TRACE SMAPI]    Stardew Valley Expanded (from Mods\Stardew Valley Expanded\[CP] Stardew Valley Expanded) [content pack]...
+[20:34:09 TRACE SMAPI]    Stardew Valley Expanded Forage Locations (from Mods\Stardew Valley Expanded\[FTM] Stardew Valley Expanded) [content pack]...
+[20:34:09 INFO  SMAPI] Loaded 13 mods:
+[20:34:09 INFO  SMAPI]    Console Commands 4.0.1 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[20:34:09 INFO  SMAPI]    Content Patcher 2.0.1 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
+[20:34:09 INFO  SMAPI]    Custom NPC Exclusions 1.6.0 by Esca | Allows modders to exclude custom NPCs from quests and events via Content Patcher.
+[20:34:09 INFO  SMAPI]    Extra Map Layers 0.3.10 by aedenthorn | Draws additional layers from map files.
+[20:34:09 INFO  SMAPI]    Farm Type Manager 1.17.1 by Esca | Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters
+[20:34:09 INFO  SMAPI]    Generic Mod Config Menu 1.12.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[20:34:09 INFO  SMAPI]    Harvest With Scythe 7.3.0 by bcmpinc | Allows you to harvest all crops and forage using the scythe. They can also still be plucked.
+[20:34:09 INFO  SMAPI]    NPC Map Locations 3.0.1 by Bouhm | Shows NPCs and farmers on a modified map page for accurate tracking.
+[20:34:09 INFO  SMAPI]    Save Backup 4.0.1 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[20:34:09 INFO  SMAPI]    SkullCavernElevator 1.6.1 by lestoph | Elevator for the Skull Cavern
+[20:34:09 INFO  SMAPI]    SpaceCore 1.19.1 by spacechase0 | A framework mod used by some of my other mods.
+[20:34:09 INFO  SMAPI]    Stardew Valley Expanded 1.14.33 by FlashShifter, Esca, super-aardvark, and kittycatcasey | Adds coded elements to the game
+[20:34:09 INFO  SMAPI]    StardewHack 7.2.0 by bcmpinc | Transpilation library used by my other mods. Doesn't do much on its own.
+
+[20:34:09 INFO  SMAPI] Loaded 3 content packs:
+[20:34:09 INFO  SMAPI]    Elle's New Barn Animals 1.1.3 by Elle/Junimods | for Content Patcher | A CP replacement for all your barn animals!
+[20:34:09 INFO  SMAPI]    Stardew Valley Expanded 1.14.33 by FlashShifter | for Content Patcher | An expansive fanmade mod for ConcernedApe's Stardew Valley.
+[20:34:09 INFO  SMAPI]    Stardew Valley Expanded Forage Locations 1.14.33 by FlashShifter | for Farm Type Manager | This FTM pack is for SVE!
+
+[20:34:09 INFO  SMAPI] Found 15 mods with warnings:
+[20:34:09 ERROR SMAPI]    Skipped mods
+[20:34:09 ERROR SMAPI]    --------------------------------------------------
+[20:34:09 ERROR SMAPI]       These mods could not be added to your game.
+
+[20:34:09 ERROR SMAPI]       - Expanded Preconditions Utility 1.0.1 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+[20:34:09 ERROR SMAPI]       - SAAT.API 1.1.2 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+
+[20:34:09 ERROR SMAPI]       - Error Handler 3.18.6 because it's obsolete: its error handling was integrated into Stardew Valley 1.6.
+[20:34:09 ERROR SMAPI]       - Json Assets 1.10.14 because it's no longer compatible. Please check for a new version at https://www.nexusmods.com/stardewvalley/mods/1720 or https://smapi.io/mods
+[20:34:09 ERROR SMAPI]       - SAAT.Mod 1.1.2 because it needs the 'SAAT.API' mod, which couldn't be loaded.
+[20:34:09 ERROR SMAPI]       - Shop Tile Framework 1.0.9 because it needs the 'Expanded Preconditions Utility' mod, which couldn't be loaded.
+[20:34:09 ERROR SMAPI]       - SkipFishingMinigame 0.5.5 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+
+[20:34:09 WARN  SMAPI]    Changed save serializer
+[20:34:09 WARN  SMAPI]    --------------------------------------------------
+[20:34:09 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
+[20:34:09 WARN  SMAPI]       you uninstall these mods.
+
+[20:34:09 WARN  SMAPI]       - SpaceCore
+
+[20:34:09 INFO  SMAPI]    Patched game code
+[20:34:09 INFO  SMAPI]    --------------------------------------------------
+[20:34:09 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[20:34:09 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+
+[20:34:09 INFO  SMAPI]       - Custom NPC Exclusions
+[20:34:09 INFO  SMAPI]       - Extra Map Layers
+[20:34:09 INFO  SMAPI]       - Farm Type Manager
+[20:34:09 INFO  SMAPI]       - Harvest With Scythe
+[20:34:09 INFO  SMAPI]       - SpaceCore
+[20:34:09 INFO  SMAPI]       - Stardew Valley Expanded
+[20:34:09 INFO  SMAPI]       - StardewHack
+
+[20:34:09 DEBUG SMAPI] Launching mods...
+[20:34:09 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
+[20:34:09 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.SetupIslandSchedules()".
+[20:34:09 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_IslandVisit": prefixing SDV method "IslandSouth.CanVisitIslandToday(NPC)".
+[20:34:09 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_MovieInvitation": transpiling SDV method "NPC.tryToReceiveActiveObject(Farmer, bool)".
+[20:34:09 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_Greetings": prefixing SDV method "NPC.sayHiTo(Character)".
+[20:34:09 TRACE Custom NPC Exclusions] Applying Harmony patch "HarmonyPatch_Fix_NullSoldItems": prefixing SDV method "Game1.UpdateShopPlayerItemInventory(string, HashSet<NPC>)".
+[20:34:09 TRACE Extra Map Layers] Transpiling Layer_DrawNormal
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_DisableFurniturePickup": postfixing 3 implementations of SDV method "Furniture.canBeRemoved(Farmer)".
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "GameLocation.isCollidingPosition".
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "Monster.findPlayer".
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": postfixing SDV method "Monster.findPlayer".
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_ToggleExtraLoot": postfixing 12 implementations of SDV method "Monster.getExtraDropitems()".
+[20:34:10 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_UpdateCursorOverPlacedItem": postfixing SDV method "Utility.canGrabSomethingFromHere(int, int, Farmer)".
+[20:34:10 INFO  StardewHack] Loaded StardewHack library v7.2.0 using Harmony v2.2.2.0.
+[20:34:10 DEBUG Harvest With Scythe] Applying bytecode patches for bcmpinc.HarvestWithScythe.
+[20:34:10 TRACE Harvest With Scythe] Applying patch GameLocation_checkAction to Boolean checkAction(xTile.Dimensions.Location, xTile.Dimensions.Rectangle, StardewValley.Farmer) in StardewValley.GameLocation.
+[20:34:10 TRACE Harvest With Scythe] Applying patch Object_performToolAction to Boolean performToolAction(StardewValley.Tool) in StardewValley.Object.
+[20:34:10 TRACE Harvest With Scythe] Applying patch HoeDirt_performToolAction to Boolean performToolAction(StardewValley.Tool, Int32, Microsoft.Xna.Framework.Vector2) in StardewValley.TerrainFeatures.HoeDirt.
+[20:34:10 TRACE Harvest With Scythe] Applying patch HoeDirt_performUseAction to Boolean performUseAction(Microsoft.Xna.Framework.Vector2) in StardewValley.TerrainFeatures.HoeDirt.
+[20:34:10 TRACE Harvest With Scythe] Applying patch Crop_harvest to Boolean harvest(Int32, Int32, StardewValley.TerrainFeatures.HoeDirt, StardewValley.Characters.JunimoHarvester, Boolean) in StardewValley.Crop.
+[20:34:10 TRACE game] Registered Data/Triggers action: spacechase0.SpaceCore_PlaySound
+[20:34:10 TRACE game] Registered Data/Triggers action: spacechase0.SpaceCore_ShowHudMessage
+[20:34:10 TRACE game] Registered event command: damageFarmer
+[20:34:10 TRACE game] Registered event command: giveHat
+[20:34:10 TRACE game] Registered event command: setDating
+[20:34:10 TRACE game] Registered event command: setEngaged
+[20:34:10 TRACE game] Registered event command: totemWarpEffect
+[20:34:10 TRACE game] Registered event command: setActorScale
+[20:34:10 TRACE game] Registered event command: cycleActorColors
+[20:34:10 TRACE game] Registered event command: flash
+[20:34:10 TRACE game] Registered event command: setRaining
+[20:34:10 TRACE game] Registered event command: screenShake
+[20:34:10 TRACE game] Registered event command: setZoom
+[20:34:10 TRACE game] Registered event command: smoothZoom
+[20:34:10 TRACE game] Registered Data/Triggers trigger type: spacechase0.SpaceCore_OnItemUsed.
+[20:34:10 TRACE game] Registered Data/Triggers trigger type: spacechase0.SpaceCore_OnItemEaten.
+[20:34:10 TRACE Harvest With Scythe] Applying patch Crop_harvest to Boolean harvest(Int32, Int32, StardewValley.TerrainFeatures.HoeDirt, StardewValley.Characters.JunimoHarvester, Boolean) in StardewValley.Crop.
+[20:34:10 TRACE SpaceCore] NPC.draw: inserting mul at 36
+[20:34:10 TRACE SpaceCore] NPC.draw: inserting mul at 42
+[20:34:10 TRACE SpaceCore] NPC.draw: inserting mul at 47
+[20:34:10 TRACE SpaceCore] NPC.draw: replacing Color.White at 139
+[20:34:10 TRACE SpaceCore] NPC.draw: replacing Color.White at 277
+[20:34:10 TRACE SpaceCore] NPC.draw: inserting vec2 mul at 303
+[20:34:10 TRACE SpaceCore] NPC.draw: replacing SpriteBatch.Draw at 324
+[20:34:10 TRACE SpaceCore] NPC.DrawBreathing: replacing Color.White at 272
+[20:34:10 TRACE SpaceCore] NPC.DrawBreathing: replacing Draw at 318
+[20:34:10 ERROR SpaceCore] NPC.DrawBreathing: some transpiler targets were not found. Aborting edit.
+[20:34:10 TRACE SpaceCore] Found crafting recipe constructor in Void layoutRecipes(System.Collections.Generic.List`1[System.String])!
+[20:34:10 TRACE SpaceCore] Found first ldloc.s for ClickableTextureComponent in Void layoutRecipes(System.Collections.Generic.List`1[System.String]); storing potential override w/ recipeLocal=StardewValley.CraftingRecipe (9)
+[20:34:10 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(System.String)!
+[20:34:11 TRACE SMAPI]    Found mod-provided API (SpaceCore.Api).
+[20:34:11 TRACE Save Backup] Already backed up today.
+[20:34:11 INFO  Stardew Valley Expanded] Starting Installation Checker...
+[20:34:11 INFO  Stardew Valley Expanded] (Installation Checker provided by shekurika and moe)
+[20:34:11 TRACE Stardew Valley Expanded] Number of dependencies to check: 5
+[20:34:11 TRACE Stardew Valley Expanded] InstallationChecker checking SMAPI...
+[20:34:11 TRACE Stardew Valley Expanded] SMAPI is loaded and up to date.
+[20:34:11 TRACE Stardew Valley Expanded] InstallationChecker checking Content Patcher...
+[20:34:11 TRACE Stardew Valley Expanded] Content Patcher is loaded and up to date.
+[20:34:11 TRACE Stardew Valley Expanded] InstallationChecker checking Farm Type Manager (FTM)...
+[20:34:11 TRACE Stardew Valley Expanded] Farm Type Manager (FTM) is loaded and up to date.
+[20:34:11 TRACE Stardew Valley Expanded] InstallationChecker checking [CP] Stardew Valley Expanded...
+[20:34:11 TRACE Stardew Valley Expanded] [CP] Stardew Valley Expanded is loaded and up to date.
+[20:34:11 TRACE Stardew Valley Expanded] InstallationChecker checking [FTM] Stardew Valley Expanded...
+[20:34:11 TRACE Stardew Valley Expanded] [FTM] Stardew Valley Expanded is loaded and up to date.
+[20:34:11 TRACE Stardew Valley Expanded] Number of missing mods: 0
+[20:34:11 TRACE Stardew Valley Expanded] Number of out of date mods: 0
+[20:34:11 INFO  Stardew Valley Expanded] Installation check completed. Everything seems fine!
+[20:34:11 TRACE Stardew Valley Expanded] Replacing sound cue "AmbientLocationSounds.engine" with a wrapper for volume control.
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "DisableShadowAttacks": postfixing SDV method "AdventureGuild.killListLine(string, int, int)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony Patch: HarmonyPatch_Mountain
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_CustomFishPondColors": postfixing SDV method "FishPond.doFishSpecificWaterColoring()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalCrops()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalCropsReadyForHarvest()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalUnwateredCrops()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalOpenHoeDirt()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalGreenhouseCropsReadyForHarvest()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_PiggyBank": postfixing SDV method "Object_checkForAction(Farmer, bool)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FixDesertBusWarp": transpiling SDV method "Desert.resetLocalState()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_DesertSecretNoteTile": prefixing SDV method "Desert.checkForBuriedItem(int, int, bool, bool, Farmer)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_CatStatue": postfixing SDV method "Object.DayUpdate(GameLocation)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_DesertFishingItems": postfixing SDV method "Desert.getFish".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_CustomGrangeJudging": prefixing SDV method "Event.initiateGrangeJudging()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_CustomGrangeJudging": postfixing SDV method "Event.interpretGrangeResults()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_MovieTheaterNPCs": postfixing SDV method "MovieTheater.checkAction(Location, Rectangle, Farmer)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_MovieTheaterNPCs": transpiling SDV method "Utility.CheckForCharacterAtTile(Vector2, Farmer)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_DestroyableBushesSVE": postfixing SDV method "Bush.isDestroyable(GameLocation, Vector2)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_TMXLLoadMapFacingDirection": prefixing SDV method "Game1.warpFarmer(LocationRequest, int, int, int)".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_UntimedSpecialOrders": postfixing SDV method "SpecialOrders.IsTimedQuest()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FixCommunityShortcuts": transpiling SDV method "Forest.showCommunityUpgradeShortcuts()".
+[20:34:11 TRACE Stardew Valley Expanded] Applying Harmony patch "HarmonyPatch_FixCommunityShortcuts": transpiling SDV method "Beach.showCommunityUpgradeShortcuts(GameLocation, bool)".
+[20:34:12 DEBUG SMAPI] Mods loaded and ready!
+[20:34:12 TRACE SMAPI] Checking for known software conflicts...
+[20:34:12 TRACE SMAPI]    None found!
+[20:34:12 TRACE SMAPI] Checking for updates...
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions loaded asset 'Data/CustomNPCExclusions'.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:12 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:13 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[20:34:13 TRACE SMAPI] Running on GPU: Intel(R) UHD Graphics 620
+[20:34:13 ERROR game] Oops! Steam achievements won't work because Steam isn't loaded. See 'Configure your game client' in the install guide for more info: https://smapi.io/install.
+[20:34:13 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[20:34:13 TRACE Extra Map Layers] device type StardewModdingAPI.Framework.Rendering.SDisplayDevice
+[20:34:13 TRACE Farm Type Manager] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:34:13 TRACE Farm Type Manager] Optional API found: Generic Mod Config Menu (GMCM).
+[20:34:13 TRACE Farm Type Manager] API not found: Expanded Preconditions Utility (EPU).
+[20:34:13 TRACE Farm Type Manager] API not found: Dynamic Game Assets (DGA).
+[20:34:13 TRACE Farm Type Manager] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[20:34:13 TRACE Farm Type Manager] API found: Content Patcher (CP).
+[20:34:13 TRACE Farm Type Manager] Mod not found: Monsters The Framework (MTF).
+[20:34:13 TRACE Harvest With Scythe] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:34:13 TRACE SpaceCore] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:34:13 TRACE SpaceCore] Accessed mod-provided API (ContentPatcher.Framework.ContentPatcherAPI) for Content Patcher.
+[20:34:13 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/TextureOverrides'.
+[20:34:13 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/CraftingRecipeOverrides'.
+[20:34:13 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/CookingRecipeOverrides'.
+[20:34:13 TRACE SpaceCore] Accessed mod-provided API (SpaceCore.Api) for SpaceCore.
+[20:34:13 TRACE SkullCavernElevator] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:34:13 TRACE SMAPI]    SMAPI okay.
+[20:34:13 TRACE SMAPI]    Checking for updates to 21 mods...
+[20:34:13 TRACE Content Patcher] SpaceCore added 4 custom tokens with prefix 'spacechase0.SpaceCore/': BooksellerInTown, CurrentEventId, CurrentlyInEvent, QuestionsAsked.
+[20:34:13 INFO  Content Patcher] Some content packs haven't been updated for Stardew Valley 1.6.0. Content Patcher will try to auto-migrate them, but compatibility isn't guaranteed.
+
+Affected content packs:
+- Elle's New Barn Animals
+
+For mod authors, see how to update a mod: https://smapi.io/cp-migrate.
+[20:34:13 TRACE game] Registered Data/Triggers action: Pathoschild.ContentPatcher_MigrateIds
+[20:34:14 TRACE SMAPI] Got update-check errors for some mods:
+   Extra Map Layers: The CurseForge mod with ID '868841' has no valid versions.
+   SAAT.Mod: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded Forage Locations: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+
+[20:34:14 ALERT SMAPI] You can update 3 mods:
+[20:34:14 ALERT SMAPI]    Expanded Preconditions Utility 1.0.2-alpha.20240225: https://www.nexusmods.com/stardewvalley/mods/6529 (you have 1.0.1)
+[20:34:14 ALERT SMAPI]    Json Assets 1.11.2: https://www.nexusmods.com/stardewvalley/mods/1720 (you have 1.10.14)
+[20:34:14 ALERT SMAPI]    Shop Tile Framework 1.0.10-alpha.20240227: https://www.nexusmods.com/stardewvalley/mods/5005 (you have 1.0.9)
+[20:34:18 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[20:34:18 TRACE SMAPI] Content Patcher edited LooseSprites/Cursors (for the 'Elle's New Barn Animals' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited LooseSprites/Cursors (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Maps/springobjects (for the 'Elle's New Barn Animals' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/BigCraftables (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/Objects (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/Crops (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/Characters (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/LocationContexts (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/Weapons (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/NPCGiftTastes (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/CookingRecipes (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/JukeboxTracks (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Strings/StringsFromCSFiles (for the 'Stardew Valley Expanded' content pack).
+[20:34:18 TRACE SMAPI] Content Patcher edited Data/AudioChanges (for the 'Stardew Valley Expanded' content pack).
+[20:34:20 TRACE SMAPI] Invalidated 13 asset names (Data/AudioChanges, Data/BigCraftables, Data/Characters, Data/CookingRecipes, Data/Crops, Data/JukeboxTracks, Data/LocationContexts, Data/NPCGiftTastes, Data/Objects, Data/Weapons, LooseSprites/Cursors, Maps/springobjects, Strings/StringsFromCSFiles).
+Propagated 13 core assets (Data/AudioChanges, Data/BigCraftables, Data/Characters, Data/CookingRecipes, Data/Crops, Data/JukeboxTracks, Data/LocationContexts, Data/NPCGiftTastes, Data/Objects, Data/Weapons, LooseSprites/Cursors, Maps/springobjects, Strings/StringsFromCSFiles).
+[20:34:20 TRACE Content Patcher] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:34:20 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of Elle.NewBarnAnimals
+[20:34:20 TRACE Generic Mod Config Menu] Pathoschild.ContentPatcher is registering on behalf of FlashShifter.StardewValleyExpandedCP
+[20:34:21 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/ConfigButton'.
+[20:34:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1366 Height:768}
+[20:34:21 TRACE SMAPI] Content Patcher edited Strings/StringsFromCSFiles (for the 'Stardew Valley Expanded' content pack).
+[20:34:33 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[20:34:36 TRACE SMAPI]    task complete.
+[20:34:36 TRACE SMAPI] Content Patcher edited Strings/UI (for the 'Stardew Valley Expanded' content pack).
+[20:34:40 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[20:34:40 TRACE SMAPI] Game loader synchronizing...
+[20:34:40 TRACE game] getLoadEnumerator('wota_366091016')
+[20:34:40 TRACE game] regular stream detected...
+[20:34:40 TRACE SMAPI] Synchronizing 'Load_Deserialize' task...
+[20:34:41 TRACE SMAPI] Content Patcher edited Strings/Characters (for the 'Stardew Valley Expanded' content pack).
+[20:34:43 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/FurnitureExtensionData'.
+[20:34:44 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/NpcExtensionData'.
+[20:34:48 TRACE SMAPI]    task complete.
+[20:34:48 TRACE Content Patcher] Requested cache invalidation for all assets matching a predicate.
+[20:34:48 TRACE SMAPI] Content Patcher edited TileSheets/ChairTiles (for the 'Stardew Valley Expanded' content pack).
+[20:34:48 TRACE SMAPI] Content Patcher edited Strings/StringsFromCSFiles (for the 'Stardew Valley Expanded' content pack).
+[20:34:48 TRACE SMAPI] Content Patcher edited Data/NPCGiftTastes (for the 'Stardew Valley Expanded' content pack).
+[20:34:48 TRACE SMAPI] Content Patcher edited Data/Characters (for the 'Stardew Valley Expanded' content pack).
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Custom NPC Exclusions edited Data/Characters.
+[20:34:48 TRACE SMAPI] Invalidated 5 asset names (Data/Characters, Data/NPCGiftTastes, Data/PassiveFestivals, Strings/StringsFromCSFiles, TileSheets/ChairTiles).
+Propagated 4 core assets (Data/Characters, Data/NPCGiftTastes, Strings/StringsFromCSFiles, TileSheets/ChairTiles).
+[20:34:48 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[20:34:48 TRACE SMAPI] Content Patcher edited LooseSprites/emojis (for the 'Stardew Valley Expanded' content pack).
+[20:34:49 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_SVEbuildingShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher loaded asset 'Maps/zGrandpasFarm_CanopyShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher loaded asset 'Maps/zGrandpasFarm_UnderCanopyShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher loaded asset 'Maps/spring_z_extras' (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher edited Maps/spring_town (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher edited Maps/Farm (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher loaded asset 'Maps/z_SVEbuildingShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:50 TRACE SMAPI] Content Patcher loaded asset 'Maps/zGrandpasFarm_CanopyShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] Content Patcher loaded asset 'Maps/zGrandpasFarm_UnderCanopyShadow' (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] Content Patcher loaded asset 'Maps/spring_z_extras' (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] Content Patcher edited Maps/spring_town (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] Content Patcher edited Data/Locations.
+[20:34:51 TRACE SMAPI] Content Patcher edited Data/Locations (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/ObjectExtensionData'.
+[20:34:51 TRACE SMAPI] Content Patcher loaded asset 'Maps/Town' (for the 'Stardew Valley Expanded' content pack).
+[20:34:51 TRACE SMAPI] Content Patcher edited Maps/Town (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaFurniture' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaWallsAndFloors' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/JoshHouse' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaFurniture' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaWallsAndFloors' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/HaleyHouse' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/SamHouse' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaCraftables' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaSpringObjects' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Blacksmith' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaCraftables' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/VanillaSpringObjects' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/ManorHouse' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/SeedShop' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Arcade_Couch' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Saloon' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Arcade_Couch' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Trailer' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Hospital' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/HarveyRoom' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher loaded asset 'Maps/Beach' (for the 'Stardew Valley Expanded' content pack).
+[20:34:52 TRACE SMAPI] Content Patcher edited Data/Fish (for the 'Stardew Valley Expanded' content pack).
